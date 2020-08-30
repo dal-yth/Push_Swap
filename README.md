@@ -22,7 +22,7 @@ Full options for checker program are: -fdbvco
 - **-b** --basic visualization, prints out simple visuals for stacks that only include numbers.
 - **-v** --visualizer, in addition to showing the actual numbers, shows bars relative to the size of number.
 - **-c** --color, colors the last executed instruction.
-- **-o** --operatioms, counts the operations and prints them out once they are executed.
+- **-o** --operations, counts the operations and prints them out once they are executed.
 
 ### Instructions
 These are the allowed instructions push_swap program is allowed to use when it sorts the stack. Push_swap may only use 2 stacks, stack A where all the numbers are at the beginning and stack B which is empty at the beginning.
