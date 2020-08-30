@@ -61,3 +61,6 @@ As the first pushing to B has been done, we now have the numbers in chunks, wher
 So we keep finding medians of the pushed chunks until the size of the current chunk is 3 or less and we can optimally sort it. We do this to every chunk, splitting them to more and more smaller chunks and sorting the smallest chunks in stack A.
 
 This kind of sorting has one advantage over insertion sort and that is linear growth in amount of moves required in relation to the amount of numbers provided. The insertion sort performs much better when there are few numbers, up to around 350, but afterwards it can't compete with homebrew sort.
+
+### Note
+The programs are designed to work with the schools MacOS and it is possible they do not work well in windows/linux environments.
