@@ -16,7 +16,7 @@ The project consist of two programs. Push_swap and checker. Push_swap takes a li
 ##### For example: push_swap 3 1 2 | checker 3 1 2
 
 As a bonus, because typing long lists of numbers is tedious, both programs can read from a file with -f: push_swap -f file | checker -f file.
-Full options for checker program are: -fdbvco
+Full options for **checker** program are: -fdbvco
 - **-f** --file, reads input from a file.
 - **-d** --debug mode, prints out both stacks after every instruction.
 - **-b** --basic visualization, prints out simple visuals for stacks that only include numbers.
